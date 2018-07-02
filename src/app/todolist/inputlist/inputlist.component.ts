@@ -21,12 +21,8 @@ export class InputListComponent{
 
         AddItem(){
            this.userstring.emit(this.item);
-        //     this.additem.push(this.item);
-        //     this.item='';
-        // localStorage.setItem("localitems", JSON.stringify(this.additem));
-         
-        //   this.localitem = localStorage.getItem("localitems");
-        //   this.Update();
+            this.item='';
+      
        
         
          }

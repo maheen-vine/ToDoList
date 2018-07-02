@@ -13,7 +13,6 @@ ustring;
   ngOnInit() { }
 
 AddUserString(userstring){
-this.ustring=userstring;
-}
+this.ustring=userstring;}
 
 }
